@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0;netcoreapp3.1;netstandard2.0;</TargetFrameworks>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Chewhern/PriSecDBAPI_SDK_CLI/tree/main/PriSecDBAPI_SC_SDK/</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ASodium" Version="0.5.2" />
+    <PackageReference Include="libsodium" Version="1.0.18.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
